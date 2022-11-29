@@ -116,7 +116,7 @@ if Jumlah ==3: potongan = (Jumlah*Harga)*7/100
 elif Jumlah >3: potongan = (Jumlah*Harga)*10/100
 else : potongan =0
 
-if Subtotal1 = (Jumlah*Harga)*lama
+Subtotal1 = (Jumlah*Harga)*lama
 
 Total= int(Subtotal1-potongan)
 Pajak = int(Total*0.11)
