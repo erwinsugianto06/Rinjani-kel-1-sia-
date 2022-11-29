@@ -113,8 +113,8 @@ Note =st.text_area('Catatan')
 
 st.write()
 if Jumlah ==3: potongan = (Jumlah*Harga)*7/100 
-    elif Jumlah >3: potongan = (Jumlah*Harga)*10/100 
-        else : potongan =0
+elif Jumlah >3: potongan = (Jumlah*Harga)*10/100 
+else : potongan =0
 a= potongan
 
 Total = (Jumlah*Harga*Lama)-a
