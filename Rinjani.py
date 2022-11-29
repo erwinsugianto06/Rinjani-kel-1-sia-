@@ -116,7 +116,7 @@ if Jumlah ==3: potongan = (Jumlah*Harga)*7/100
 elif Jumlah >3: potongan = (Jumlah*Harga)*10/100 
 else : potongan =0
 
-Total = int(Jumlah*Harga*Lama)
+Total = (Jumlah*Harga*Lama)-potongan
 Pajak = int(Total*0.11)
 Jumlah_bayar = int(Total+Pajak)
 def garis():
