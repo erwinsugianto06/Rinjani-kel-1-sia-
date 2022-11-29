@@ -115,9 +115,8 @@ st.write()
 if Jumlah ==3: potongan = (Jumlah*Harga)*7/100 
 elif Jumlah >3: potongan = (Jumlah*Harga)*10/100 
 else : potongan =0
-a= potongan
 
-Total = (Jumlah*Harga*Lama)-a
+Total = int(Jumlah*Harga*Lama)-(potongan)
 Pajak = int(Total*0.11)
 Jumlah_bayar = int(Total+Pajak)
 def garis():
