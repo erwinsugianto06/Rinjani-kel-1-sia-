@@ -118,7 +118,7 @@ else : potongan =0
 
 Subtotal1 = (Jumlah*Harga)*Lama
 
-Total= int(Subtotal1-potongan)
+Total = (Subtotal1-potongan)
 Pajak = int(Total*0.11)
 Jumlah_bayar = int(Total+Pajak)
 def garis():
