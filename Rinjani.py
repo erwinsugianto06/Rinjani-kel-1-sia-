@@ -112,10 +112,10 @@ while Kode :
 Note =st.text_area('Catatan')
 
 st.write()
-a = if Jumlah ==3: potongan = (Jumlah*Harga)*7/100 elif Jumlah >3: potongan = (Jumlah*Harga)*10/100 else : potongan =0
+if Jumlah ==3: potongan = (Jumlah*Harga)*7/100 elif Jumlah >3: potongan = (Jumlah*Harga)*10/100 else : potongan =0
 
 
-Total = (Jumlah*Harga*Lama)-a
+Total = (Jumlah*Harga*Lama)-Potongan
 Pajak = int(Total*0.11)
 Jumlah_bayar = int(Total+Pajak)
 def garis():
